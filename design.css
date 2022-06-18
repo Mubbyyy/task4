@@ -1,0 +1,98 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color:hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+input{
+    display: block;
+}
+.wrapper {
+    display: flex;
+  min-height: 100vh;
+    place-items: center;
+justify-content:space-between ;
+width: 80%;
+max-width: 800px;
+margin: 0 auto;
+
+    
+}
+.wrap-left{
+    width: 40%;
+    align-self: center;
+    margin-top: 30px;
+}
+.H2{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.H4{
+    font-weight: 100;
+    font-size: smaller;
+    
+}
+.Try{
+    background-color:hsl(249, 10%, 26%) ; 
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: small;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+.form-area{
+    background-color: hsl(246,25%, 77%);
+    padding: 30px;
+    border-radius: 5px;
+}
+input[type=email],input[type=text],input[type=password]{
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    
+    width: 100%;
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 3px;
+}
+.claim-btn{
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    margin: 15px;
+    margin-left: 3px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.click{
+    font-size: smaller;
+    font-weight: lighter;
+}
+@media screen and (max-width:1440px) {
+    main{
+        display: flex;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .wrapper{
+        display: block;
+        padding: 20px;
+    }
+    .wrap-left{
+        width:100% ;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+}
